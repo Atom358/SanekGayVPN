@@ -24,17 +24,20 @@
 |--|--|--|
 | 1 | VK | VK Cloud |
 | 2 | YA | Yandex Cloud |
-| 3 | SEL | Selectel |
-| 4 | TW | Timeweb Cloud |
+| 3 | TW | Timeweb Cloud |
+| 4 | SEL | Selectel |
 | 5 | BG | Beget |
-| 6 | 4VPS | 4VPS.SU |
-| 7 | DDG | DDoS-Guard |
-| 8 | FL | Filanco |
-| 9 | MJ | Majordomo |
-| 10 | DSWA | DSWA |
-| 11 | HSHP | HSHP Hosting |
-| 12 | GCS | GCS |
-| 13 | XC | XorekCloud |
+| 6 | DL | DeltaHost |
+| 7 | CR | Cloud.ru |
+| 8 | SH | Serv.Host |
+| 9 | 4VPS | 4VPS.SU |
+| 10 | DDG | DDoS-Guard |
+| 11 | FL | Filanco |
+| 12 | MJ | Majordomo |
+| 13 | DSWA | DSWA |
+| 14 | HSHP | HSHP Hosting |
+| 15 | GCS | GCS |
+| 16 | XC | XorekCloud |
 
 # **Ссылка** 
 ***[SanekGayVPN](https://github.com/Atom358/SanekGayVPN/raw/refs/heads/main/SanekGayVPN.txt)*** (скопировать)
