@@ -20,11 +20,21 @@
 3) Берегите ресурс. Воздержитесь от масштабных загрузок (от нескольких гигабайт), особенно скачивания тяжёлых торрентов, и использования p2p-сетей.
 
 # Список облачных провайдеров
-| Аббревиатура | Расшифровка |
-|--|--|
-| VK | VK |
-| YA | Yandex |
-| TW | Timeweb |
+| № | Сокращение | Название облочного провайдера |
+|--|--|--|
+| 1 | VK | VK Cloud |
+| 2 | YA | Yandex Cloud |
+| 3 | SEL | Selectel |
+| 4 | TW | Timeweb Cloud |
+| 5 | BG | Beget |
+| 6 | 4VPS | 4VPS.SU |
+| 7 | DDG | DDoS-Guard |
+| 8 | FL | Filanco |
+| 9 | MJ | Majordomo |
+| 10 | DSWA | DSWA |
+| 11 | HSHP | HSHP Hosting |
+| 12 | GCS | GCS |
+| 13 | XC | XorekCloud |
 
-### **Ссылка** 
-***[SanekGayVPN](https://github.com/Atom358/SanekGayVPN/raw/refs/heads/main/SanekGayVPN.txt)***
+# **Ссылка** 
+***[SanekGayVPN](https://github.com/Atom358/SanekGayVPN/raw/refs/heads/main/SanekGayVPN.txt)*** (скопировать)
