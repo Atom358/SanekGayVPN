@@ -36,18 +36,19 @@
 | 5 | BG | Beget |
 | 6 | DL | DeltaHost |
 | 7 | EC | EdgeЦентр |
-| 8 | CR | Cloud.ru |
-| 9 | RR | Рег.ру |
-| 10 | SH | Serv.Host |
-| 11 | 4VPS | 4VPS.SU |
-| 12 | PVDS | PINVDS |
-| 13 | DDG | DDoS-Guard |
-| 14 | FL | Filanco |
-| 15 | MJ | Majordomo |
-| 16 | DSWA | DSWA |
-| 17 | HSHP | HSHP Hosting |
-| 18 | GCS | Группа Систематика |
-| 19 | XC | XorekCloud |
+| 8 | AG | Aéza Group |
+| 9 | CR | Cloud.ru |
+| 10 | RR | Рег.ру |
+| 11 | SH | Serv.Host |
+| 12 | 4VPS | 4VPS.SU |
+| 13 | PVDS | PINVDS |
+| 14 | DDG | DDoS-Guard |
+| 15 | FL | Filanco |
+| 16 | MJ | Majordomo |
+| 17 | DSWA | DSWA |
+| 18 | HSHP | HSHP Hosting |
+| 19 | GCS | Группа Систематика |
+| 20 | XC | XorekCloud |
 
 # **Ссылка** 
 ***[SanekGayVPN](https://github.com/Atom358/SanekGayVPN/raw/refs/heads/main/SanekGayVPN.txt)*** (скопировать)
