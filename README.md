@@ -50,5 +50,8 @@
 | 19 | GCS | Группа Систематика |
 | 20 | XC | XorekCloud |
 
+### Список облачных провайдеров:
+***[Список разрешённых доменов](https://github.com/hxehex/russia-mobile-internet-whitelist/blob/main/whitelist.txt)***
+
 # **Ссылка** 
 ***[SanekGayVPN](https://github.com/Atom358/SanekGayVPN/raw/refs/heads/main/SanekGayVPN.txt)*** (скопировать)
