@@ -49,17 +49,18 @@
 | 12 | SH | Serv.Host |
 | 13 | 4VPS | 4VPS.SU |
 | 14 | PVDS | PINVDS |
-| 15 | SDOO | Sysect D.O.O. |
-| 16 | DDG | DDoS-Guard |
-| 17 | FL | Filanco |
-| 18 | MJ | Majordomo |
-| 19 | ND | node |
-| 20 | DSWA | DSWA |
-| 21 | HSHP | HSHP Hosting |
-| 22 | OT | Oyster Telecom |
-| 23 | GCS | Группа Систематика |
-| 24 | UFO | UFO Hosting |
-| 25 | XC | XorekCloud |
+| 15 | CDNV | CDNvideo |
+| 16 | SDOO | Sysect D.O.O. |
+| 17 | DDG | DDoS-Guard |
+| 18 | FL | Filanco |
+| 19 | MJ | Majordomo |
+| 20 | ND | node |
+| 21 | DSWA | DSWA |
+| 22 | HSHP | HSHP Hosting |
+| 23 | OT | Oyster Telecom |
+| 24 | GCS | Группа Систематика |
+| 25 | UFO | UFO Hosting |
+| 26 | XC | XorekCloud |
 
 **Примечание**: При использовании серверов Yandex Cloud могут возникнуть проблемы с функционированием YouTube.
 
