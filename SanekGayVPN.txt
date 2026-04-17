@@ -1,7 +1,7 @@
 #profile-title: SanekGayVPN
-#announce: base64:0KHQsNC90LUg0L/RgNC40LLQtdGCKQ==
+#announce: base64:0KLQstC+0YDQvtC20LrRgyDQv9GA0LjQstC10YIp
 #profile-web-page-url: https://github.com/Atom358/SanekGayVPN
-#support-url: https://t.me/Erensandigen5473
+#support-url: https://github.com/Atom358/SanekGayVPN/issues
 #subscription-userinfo: upload=0; download=0; total=0
 #profile-update-interval: 1
 
