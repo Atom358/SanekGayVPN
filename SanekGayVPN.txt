@@ -1,7 +1,7 @@
 #profile-title: SanekGayVPN
 #announce: base64:0KHQsNC90LUg0L/RgNC40LLQtdGCKQ==
 #profile-web-page-url: https://github.com/Atom358/SanekGayVPN
-#subscription-userinfo: total=0
+#subscription-userinfo: upload=0; download=0; total=0
 #profile-update-interval: 1
 
 vless://52ca0d43-e64a-4127-a972-a15623886a06@158.160.237.0:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=max.ru&fp=chrome&security=reality&pbk=praGYag8YPbz_rcd_Pa6Fqsi_IiQtO3e1AosYBcu6h4&sid=378086fbdb7c61cd#%F0%9F%87%B7%F0%9F%87%BA%20%D0%91%D0%B5%D0%BB%D1%8B%D0%B9%20%D1%81%D0%BF%D0%B8%D1%81%D0%BE%D0%BA%20%7C%20YA%20%7C%20max.ru
