@@ -1,5 +1,6 @@
 #profile-title: SanekGayVPN
 #profile-update-interval: 1
+#profile-web-page-url: https://github.com/Atom358/SanekGayVPN
 vless://52ca0d43-e64a-4127-a972-a15623886a06@158.160.237.0:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=max.ru&fp=chrome&security=reality&pbk=praGYag8YPbz_rcd_Pa6Fqsi_IiQtO3e1AosYBcu6h4&sid=378086fbdb7c61cd#%F0%9F%87%B7%F0%9F%87%BA%20%D0%91%D0%B5%D0%BB%D1%8B%D0%B9%20%D1%81%D0%BF%D0%B8%D1%81%D0%BE%D0%BA%20%7C%20YA%20%7C%20max.ru
 vless://a96f18f0-4a56-4c4f-be6e-434835f5523c@51.250.117.129:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=ads.x5.ru&fp=chrome&security=reality&pbk=uGspoS3wwbemRcyzO-VaIiF_lGvR4JyFWjwbkVF6zQU&sid=7474585086#%F0%9F%87%B7%F0%9F%87%BA%20%D0%91%D0%B5%D0%BB%D1%8B%D0%B9%20%D1%81%D0%BF%D0%B8%D1%81%D0%BE%D0%BA%20%7C%20YA%20%7C%20ads.x5.ru
 vless://dfaab55f-ec87-44ad-932a-4495de6e839b@51.250.10.229:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=wl-6-1.legendary-vpn.com&fp=chrome&security=reality&pbk=uofZM1SG_RthhSONWy50U6cQ5m3kXy-sglwY0CANfi8&sid=468d8ab371f8f563#%F0%9F%87%B7%F0%9F%87%BA%20%D0%91%D0%B5%D0%BB%D1%8B%D0%B9%20%D1%81%D0%BF%D0%B8%D1%81%D0%BE%D0%BA%20%7C%20YA%20%7C%20wl-6-1.legendary-vpn.com
