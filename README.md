@@ -43,24 +43,25 @@
 | 6 | DL | DeltaHost |
 | 7 | EC | EdgeЦентр |
 | 8 | AZ | Aéza Group |
-| 9 | CR | Cloud.ru |
-| 10 | DR | docker.ru |
-| 11 | RR | Рег.ру |
-| 12 | SH | Serv.Host |
-| 13 | 4VPS | 4VPS.SU |
-| 14 | PVDS | PINVDS |
-| 15 | CDNV | CDNvideo |
-| 16 | SDOO | Sysect D.O.O. |
-| 17 | DDG | DDoS-Guard |
-| 18 | FL | Filanco |
-| 19 | MJ | Majordomo |
-| 20 | ND | node |
-| 21 | DSWA | DSWA |
-| 22 | HSHP | HSHP Hosting |
-| 23 | OT | Oyster Telecom |
-| 24 | GCS | Группа Систематика |
-| 25 | UFO | UFO Hosting |
-| 26 | XC | XorekCloud |
+| 9 | BL | Beeline |
+| 10 | CR | Cloud.ru |
+| 11 | DR | docker.ru |
+| 12 | RR | Рег.ру |
+| 13 | SH | Serv.Host |
+| 14 | 4VPS | 4VPS.SU |
+| 15 | PVDS | PINVDS |
+| 16 | CDNV | CDNvideo |
+| 17 | SDOO | Sysect D.O.O. |
+| 18 | DDG | DDoS-Guard |
+| 19 | FL | Filanco |
+| 20 | MJ | Majordomo |
+| 21 | ND | node |
+| 22 | DSWA | DSWA |
+| 23 | HSHP | HSHP Hosting |
+| 24 | OT | Oyster Telecom |
+| 25 | GCS | Группа Систематика |
+| 26 | UFO | UFO Hosting |
+| 27 | XC | XorekCloud |
 
 **Примечание**: При использовании серверов Yandex Cloud могут возникнуть проблемы с функционированием YouTube.
 
