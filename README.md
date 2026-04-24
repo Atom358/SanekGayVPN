@@ -43,29 +43,31 @@
 | 6 | DL | DeltaHost |
 | 7 | EC | EdgeЦентр |
 | 8 | AZ | Aéza Group |
-| 9 | BL | Beeline |
-| 10 | CR | Cloud.ru |
-| 11 | DR | docker.ru |
-| 12 | RR | Рег.ру |
-| 13 | SH | Serv.Host |
-| 14 | 4VPS | 4VPS.SU |
-| 15 | VPSV | VPSVille |
-| 16 | PVDS | PINVDS |
-| 17 | VDSI | VDSina |
-| 18 | CDNV | CDNvideo |
-| 19 | SDOO | Sysect D.O.O. |
-| 20 | DDG | DDoS-Guard |
-| 21 | FL | Filanco |
-| 22 | MJ | Majordomo |
-| 23 | ND | node |
-| 24 | DSWA | DSWA |
-| 25 | HSHP | HSHP Hosting |
-| 26 | OT | Oyster Telecom |
-| 27 | GCS | Группа Систематика |
-| 28 | UFO | UFO Hosting |
-| 29 | XC | XorekCloud |
+| 9 | BL | Beeline Cloud |
+| 10 | PC | ProCloud |
+| 11 | CR | Cloud.ru |
+| 12 | DR | docker.ru |
+| 13 | RR | Рег.ру |
+| 14 | SH | Serv.Host |
+| 15 | 4VPS | 4VPS.SU |
+| 16 | VPSV | VPSVille |
+| 17 | PVDS | PINVDS |
+| 18 | VDSI | VDSina |
+| 19 | CDNV | CDNvideo |
+| 20 | SDOO | Sysect D.O.O. |
+| 21 | DDG | DDoS-Guard |
+| 22 | FL | Filanco |
+| 23 | MJ | Majordomo |
+| 24 | ND | node |
+| 25 | DSWA | DSWA |
+| 26 | HSHP | HSHP Hosting |
+| 27 | OT | Oyster Telecom |
+| 28 | GCS | Группа Систематика |
+| 29 | UFO | UFO Hosting |
+| 30 | XC | XorekCloud |
 
-**Примечание**: При использовании серверов Yandex Cloud могут возникнуть проблемы с функционированием YouTube.
+> [!NOTE]
+> При использовании серверов Yandex Cloud могут возникнуть проблемы с функционированием YouTube.
 
 ### Список разрешённых доменов:
 ***[Список разрешённых доменов](https://github.com/hxehex/russia-mobile-internet-whitelist/blob/main/whitelist.txt)***
