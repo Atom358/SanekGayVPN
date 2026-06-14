@@ -38,3 +38,358 @@ vless://75a8990b-cf91-0032-9c34-599162b56782@2.26.78.103:443/?type=tcp&encryptio
 vless://5b3ef1ee-60f1-4700-8caf-743d2509bced@78.17.98.36:8443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=www.microsoft.com&fp=edge&security=reality&pbk=HA772VN0jk_nXjzMj2O1vxR4Ibr2OyS-rfMb6VJggnU&sid=d5e7f1a2#%F0%9F%87%B7%F0%9F%87%BA%20test
 vless://537e1e30-6cf5-4ee6-b36c-2199a9cfbba6@193.233.89.194:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=ru-streaming.barryvpn.com&fp=qq&security=reality&pbk=u1QltI2SnUX48F-cqulaVojcSLadC9I1Vt8gOqnFTB4&sid=0123456789abcdef#%F0%9F%87%A9%F0%9F%87%AA%20test
 vless://85c51f32-c245-4a23-9d86-e1209bec08db@89.105.210.101:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=ru-1.videoproeditor.com&fp=randomized&security=reality&pbk=ivgTfLR13A6xBsicIA28OPoav2tXlsstTTmGuETfnSk&sid=6d6f13013d3e1d0c#%F0%9F%87%B3%F0%9F%87%B1%20test
+{
+  "dns": {
+    "servers": [
+      "https://8.8.8.8/dns-query",
+      "https://8.8.4.4/dns-query"
+    ],
+    "queryStrategy": "UseIP"
+  },
+  "inbounds": [
+    {
+      "listen": "127.0.0.1",
+      "port": 10808,
+      "protocol": "socks",
+      "settings": {
+        "auth": "noauth",
+        "udp": true,
+        "userLevel": 8
+      },
+      "sniffing": {
+        "destOverride": [
+          "http",
+          "tls"
+        ],
+        "enabled": true,
+        "routeOnly": false
+      },
+      "tag": "socks"
+    },
+    {
+      "listen": "127.0.0.1",
+      "port": 10809,
+      "protocol": "http",
+      "settings": {
+        "userLevel": 8,
+        "auth": "noauth"
+      },
+      "tag": "http"
+    }
+  ],
+  "log": {
+    "loglevel": "info",
+    "access": "/data/user/0/com.happproxy/files/logs/access/access_log.txt",
+    "error": "/data/user/0/com.happproxy/files/logs/error/1781443579053_error_log.txt"
+  },
+  "outbounds": [
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false
+      },
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "de-dp-01.com",
+            "port": 8443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "xtls-rprx-vision",
+                "id": "5c63a815-606d-4928-819a-2d4930aafafa",
+                "level": 8
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "reality",
+        "realitySettings": {
+          "allowInsecure": false,
+          "fingerprint": "firefox",
+          "publicKey": "ISa-DZOI4LRRb9DHMFYm5oFqBXDjYzz0hVWUfWvzLmo",
+          "serverName": "storage.yandex.net",
+          "shortId": "5be97fb85093a3a9",
+          "show": false
+        },
+        "tcpSettings": {
+          "header": {
+            "type": "none"
+          }
+        }
+      },
+      "tag": "proxy-decoy-de-dp-01-com-direct"
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false
+      },
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "bypass.fi-m247-01.com",
+            "port": 8443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "xtls-rprx-vision",
+                "id": "15f1ae78-ef98-440c-91f8-28c6b013001e",
+                "level": 8
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "reality",
+        "realitySettings": {
+          "allowInsecure": false,
+          "fingerprint": "firefox",
+          "publicKey": "KYlgK96xPZJq10GbhF-BaCXRxXc9XzxzfICdooYvMlg",
+          "serverName": "storage.yandex.net",
+          "shortId": "d020b987f84eb78a",
+          "show": false
+        },
+        "tcpSettings": {
+          "header": {
+            "type": "none"
+          }
+        },
+        "sockopt": {
+          "dialerProxy": "ru-upstream-0"
+        }
+      },
+      "tag": "proxy-decoy-bypass-fi-m247-01-com-bypass"
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false
+      },
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "188.72.103.3",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "da7d5149-f23a-4a69-a42b-ac5314b8c981",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "cdn.tracker.yandex.net",
+          "show": false
+        },
+        "xhttpSettings": {
+          "extra": {
+            "seqKey": "",
+            "sessionKey": "",
+            "noSSEHeader": false,
+            "xPaddingKey": "",
+            "seqPlacement": "",
+            "uplinkDataKey": "",
+            "xPaddingBytes": "0-0",
+            "xPaddingHeader": "",
+            "xPaddingMethod": "",
+            "uplinkChunkSize": 0,
+            "sessionPlacement": "",
+            "uplinkHTTPMethod": "GET",
+            "xPaddingObfsMode": false,
+            "xPaddingPlacement": "",
+            "scMaxBufferedPosts": 30,
+            "scMaxEachPostBytes": "1000000",
+            "uplinkDataPlacement": "",
+            "scStreamUpServerSecs": "20-80"
+          },
+          "host": "gw243.kdjdjssjwiqwr.online",
+          "mode": "packet-up",
+          "path": "/livestreamcontent/"
+        }
+      },
+      "tag": "proxy-wl-188-72-103-3"
+    },
+    {
+      "protocol": "socks",
+      "settings": {
+        "servers": [
+          {
+            "address": "157.22.110.60",
+            "port": 64383,
+            "users": [
+              {
+                "user": "82eJ4E9iG",
+                "pass": "tzUhKjuVG"
+              }
+            ]
+          }
+        ]
+      },
+      "tag": "ru-upstream-0"
+    },
+    {
+      "protocol": "freedom",
+      "settings": {
+        "domainStrategy": "UseIP"
+      },
+      "tag": "direct"
+    },
+    {
+      "protocol": "blackhole",
+      "settings": {
+        "response": {
+          "type": "http"
+        }
+      },
+      "tag": "block"
+    }
+  ],
+  "remarks": "🇳🇱⚪Нидерланды (БС-5) ☁️",
+  "routing": {
+    "domainStrategy": "IPIfNonMatch",
+    "domainMatcher": "hybrid",
+    "rules": [
+      {
+        "type": "field",
+        "protocol": [
+          "bittorrent"
+        ],
+        "outboundTag": "direct"
+      },
+      {
+        "type": "field",
+        "outboundTag": "direct",
+        "domain": [
+          "domain:ru",
+          "domain:xn--p1ai",
+          "geosite:category-ru",
+          "domain:1cfresh.com",
+          "domain:2gis.by",
+          "domain:2gis.com",
+          "domain:2gis.com.cy",
+          "domain:alfa-bank.com",
+          "domain:alfabank.com",
+          "domain:alfafinance.biz",
+          "domain:alfafx.com",
+          "domain:alfaprivate.com",
+          "domain:beta-bank.com",
+          "domain:gazprombank.tech",
+          "domain:investalfabank.com",
+          "domain:moex.com",
+          "domain:tbank-online.com",
+          "domain:tochka.com",
+          "domain:tochka-tech.com",
+          "domain:vtb.com",
+          "domain:vtb.digital",
+          "domain:vtb.promo",
+          "domain:vtb24.com",
+          "domain:vtbrussia.com",
+          "domain:avito.st",
+          "domain:lenta.com",
+          "domain:megamarket.tech",
+          "domain:okko.tv",
+          "domain:ozonusercontent.com",
+          "domain:premier.one",
+          "domain:wildberries.by",
+          "domain:wbstatic.net",
+          "domain:youla.io",
+          "domain:userapi.com",
+          "domain:vk.com",
+          "domain:vk-portal.net",
+          "domain:yads.tech",
+          "domain:yandex",
+          "domain:yandex-bank.net",
+          "domain:yandex.aero",
+          "domain:yandex.az",
+          "domain:yandex.by",
+          "domain:yandex.cloud",
+          "domain:yandex.co.il",
+          "domain:yandex.com",
+          "domain:yandex.com.ge",
+          "domain:yandex.eu",
+          "domain:yandex.fr",
+          "domain:yandex.jobs",
+          "domain:yandex.kg",
+          "domain:yandex.kz",
+          "domain:yandex.net",
+          "domain:yandex.org",
+          "domain:yandexadexchange.net",
+          "domain:yandexcloud.net",
+          "domain:yandexcom.net",
+          "domain:yandexmetrica.com",
+          "domain:yandexwebcache.net",
+          "domain:yandexwebcache.org",
+          "domain:yastat.net",
+          "domain:yastatic.net",
+          "domain:gismeteo.com",
+          "domain:lmru.tech",
+          "domain:mradx.net",
+          "domain:tildaapi.com",
+          "domain:kontur.host"
+        ]
+      },
+      {
+        "type": "field",
+        "network": "tcp",
+        "balancerTag": "WL_Balancer"
+      }
+    ],
+    "balancers": [
+      {
+        "tag": "WL_Balancer",
+        "selector": [
+          "proxy"
+        ],
+        "strategy": {
+          "type": "leastLoad",
+          "settings": {
+            "maxRTT": "1s",
+            "expected": 1,
+            "baselines": [
+              "300ms",
+              "500ms"
+            ],
+            "tolerance": 0,
+            "costs": [
+              {
+                "match": "proxy-wl-188-72-103-3",
+                "value": 10
+              }
+            ]
+          }
+        },
+        "fallbackTag": "proxy-wl-188-72-103-3"
+      }
+    ]
+  },
+  "burstObservatory": {
+    "pingConfig": {
+      "timeout": "3s",
+      "interval": "5m",
+      "sampling": 1,
+      "destination": "http://www.gstatic.com/generate_204",
+      "connectivity": ""
+    },
+    "subjectSelector": [
+      "proxy"
+    ]
+  }
+}
