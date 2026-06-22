@@ -68,6 +68,7 @@
 
 > [!NOTE]
 > При использовании серверов Yandex Cloud могут возникнуть проблемы с функционированием YouTube.
+Серверы RUVDS могут блокировать доступ к сайтам, запрещённым в России.
 
 ### Список разрешённых доменов:
 ***[Список разрешённых доменов](https://github.com/hxehex/russia-mobile-internet-whitelist/blob/main/whitelist.txt)***
