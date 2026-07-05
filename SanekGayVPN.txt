@@ -83,6 +83,8 @@ vless://1f4c983e-382c-d2fa-b2dc-7981f02b34de@62.60.155.0:443/?type=tcp&encryptio
 vless://52c67f4c-a4a2-4bfd-982f-2fdb6b48e7f1@62.60.232.249:14302/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=www.samsung.com&fp=firefox&security=reality&pbk=lw7-Msn5E2O6HbBdqMw9SvoDJgbDIvHss0UVQ9iZFRc&sid=106f1604d65bb70c#%F0%9F%87%AD%F0%9F%87%B0%20%D0%93%D0%BE%D0%BD%D0%BA%D0%BE%D0%BD%D0%B3
 🇯🇵
 vless://a9f9bbcf-c3e1-4b4a-a465-0ff340c953c7@147.45.49.21:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=jp.monkeyvillage.pro&fp=firefox&security=reality&pbk=Q7-sRiaAcmlJ_iwqiA46kDKso_r2kJ7X1mrVjL2illo&sid=07308a1408185397#%F0%9F%87%AF%F0%9F%87%B5%20%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F
+🇸🇬
+vless://6249dd6a-d09e-48e3-970c-eb94546bd120@sg.ethicsdinnerpave.online:443?encryption=none&security=tls&sni=sg.ethicsdinnerpave.online&alpn=h2%2C%20http%2F1.1&fp=qq&echfq=none&allowinsecure=0&type=xhttp&mode=auto&host=sg.ethicsdinnerpave.online&path=%2Fassets%2Fbuild%2F_app%2Fimmutable%2Fchunks%2Fstream-one%2F&extra=%7B%22xmux%22%3A%7B%22cMaxReuseTimes%22%3A0.0%2C%22maxConcurrency%22%3A%220%22%2C%22maxConnections%22%3A3.0%2C%22hKeepAlivePeriod%22%3A0.0%2C%22hMaxRequestTimes%22%3A%22600-900%22%2C%22hMaxReusableSecs%22%3A%221800-3000%22%7D%7D&fm=%7B%22quicParams%22%3A%7B%22congestion%22%3A%22bbr%22%2C%22debug%22%3Afalse%7D%7D#%F0%9F%87%B8%F0%9F%87%AC%20%D0%A1%D0%B8%D0%BD%D0%B3%D0%B0%D0%BF%D1%83%D1%80
 🇨🇦
 vless://564e87e8-99b8-4822-8ffd-ac0d579984f9@dp-ca-01.live:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=storage.yandex.net&fp=firefox&security=reality&pbk=pPi-WO8qQFFZ9UJWNLW9YClbjcoAAZWJQ2_FM3Kjhz8&sid=500aec9e9e5e2212#%F0%9F%87%A8%F0%9F%87%A6%20%D0%9A%D0%B0%D0%BD%D0%B0%D0%B4%D0%B0
 🇺🇸
