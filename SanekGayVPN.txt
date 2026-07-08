@@ -106,7 +106,7 @@ vless://fbf73f7a-8f36-44ef-a906-2dd02cc5e617@us.monkeyvillage.pro:443?flow=xtls-
 💪
 vless://00000000-0000-0000-0000-000000000000@127.0.0.1:1080/?type=tcp&encryption=none&flow=#%E2%86%93%20%D0%97%D0%90%D0%9F%D0%90%D0%A1%D0%9D%D0%AB%D0%95%20%D0%A1%D0%95%D0%A0%D0%92%D0%95%D0%A0%D0%90%20%D0%A1%D0%90%D0%9D%D0%95%D0%A7%D0%9A%D0%98%20%F0%9F%92%AA%20%E2%86%93
 🇫🇮
-vless://8ca5cbd3-ec16-4728-bedc-2bc0d82f0922@217.217.247.244:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=crmoutsourcing.org&fp=qq&security=reality&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sid=6ba85179e30d4fc2#%F0%9F%87%AB%F0%9F%87%AE%20%D0%A4%D0%B8%D0%BD%D0%BB%D1%8F%D0%BD%D0%B4%D0%B8%D1%8F
+vless://03e7f55f-22f8-4564-880f-b86c8cdbf140@45.195.228.168:443?flow=xtls-rprx-vision&encryption=none&security=reality&sni=storage.yandex.net&fp=firefox&echfq=none&pbk=66-fz0xjwauydj29EfFKyPHjJ2CIGaGSsJ6hsB--zAc&sid=a1cb4af60a34ff8e&allowinsecure=0&type=tcp&headerType=none#%F0%9F%87%AB%F0%9F%87%AE%20%D0%A4%D0%B8%D0%BD%D0%BB%D1%8F%D0%BD%D0%B4%D0%B8%D1%8F
 🇸🇪
 vless://fbf73f7a-8f36-44ef-a906-2dd02cc5e617@se.monkeyvillage.pro:443?flow=xtls-rprx-vision&encryption=none&security=reality&sni=se.monkeyvillage.pro&fp=firefox&pbk=Q7-sRiaAcmlJ_iwqiA46kDKso_r2kJ7X1mrVjL2illo&sid=293c41153df9694e&allowinsecure=0&type=tcp&headerType=none#%F0%9F%87%B8%F0%9F%87%AA%20%D0%A8%D0%B2%D0%B5%D1%86%D0%B8%D1%8F
 🇷🇺
