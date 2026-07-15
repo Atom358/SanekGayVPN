@@ -1,5 +1,5 @@
 #profile-title: SanekGayVPN
-#announce: base64:0KLQstC+0YDQvtC20LrRgyDQv9GA0LjQstC10YIp
+#announce: base64:4pWlVkxFU1Mg4oKUIOCUo9C10LbQvdC+0YHRgtGM0L3QvtGB0YLRjAripIpoeXN0ZXJpYSDigKQg0YHQutC+0YDQvtGB0YLRjArigI/vuI/QodCV0YDQktCV0KDQkCDQmNCXINCR0JXQm9Ce0JPQniDQodCf0JjQodCa0JAg0JjQodCf0J7Qm9Cs0JfQk9CV0KIg0KLQntCb0KzQmtCeINCf0JDRgNCYINCg0JDQmdCV0J3QmNCv0KUg0JzQntCR0JjQm9Co0J3QntCn0J4g0JjQndCi0JXQoNCd0JXQotCw4oCPClAuUy4g0JPQtdC50YHQutC40Lkg0YLQstC+0YDQvtC20L7Qug==
 #profile-web-page-url: https://github.com/Atom358/SanekGayVPN
 #support-url: https://github.com/Atom358/SanekGayVPN/issues
 #subscription-userinfo: upload=0; download=0; total=0
