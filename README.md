@@ -26,9 +26,9 @@
 # Расшифровка названий серверов
 Серверы в списке имеют структуру:
 
-`Тип сервера (Белый список) | Хостинг-провайдер (Владелец CIDR) | SNI-маска`
+`Локация | Хостинг-провайдер (Владелец CIDR) | SNI-маска`
 
-Пример: **Белый список | VK | ads.x5.ru**
+Пример: **Россия | VK | eh.vk.com**
 
 ### Список облачных провайдеров:
 Провайдеры в таблице владеют CIDR, IP-адресса которых находятся в «белом списке».
@@ -36,26 +36,26 @@
 | № | Сокращение | Название облачного провайдера |
 |--|--|--|
 | 1 | VK | VK Cloud |
-| 2 | YA | Yandex Cloud |
+| 2 | YA | Yandex Telecom (или Yandex Cloud) |
 | 3 | TW | Timeweb Cloud |
 | 4 | SEL | Selectel |
 | 5 | BG | Beget |
 | 6 | DL | DeltaHost |
 | 7 | EC | EdgeЦентр |
-| 8 | AZ | Aéza Group |
-| 9 | PC | ProCloud |
-| 10 | CR | Cloud.ru |
-| 11 | DR | docker.ru |
-| 12 | RR | Рег.ру |
-| 13 | SH | Serv.Host |
-| 14 | RVDS | RUVDS |
-| 15 | 4VPS | 4VPS.SU |
-| 16 | VPSV | VPSVille |
-| 17 | PVDS | PINVDS |
-| 18 | VDSI | VDSina |
-| 19 | CDNV | CDNvideo |
-| 20 | SDOO | Sysect D.O.O. |
-| 21 | DDG | DDoS-Guard |
+| 8 | IHC | Интернет Хостинг Центр |
+| 9 | AZ | Aéza Group |
+| 10 | PC | ProCloud |
+| 11 | CR | Cloud.ru |
+| 12 | DR | docker.ru |
+| 13 | RR | Рег.ру |
+| 14 | SH | Serv.Host |
+| 15 | RVDS | RUVDS |
+| 16 | 4VPS | 4VPS.SU |
+| 17 | VPSV | VPSVille |
+| 18 | PVDS | PINVDS |
+| 19 | VDSI | VDSina |
+| 20 | CDNV | CDNvideo |
+| 21 | NG | NGENIX |
 | 22 | FL | Filanco |
 | 23 | MJ | Majordomo |
 | 24 | ND | node |
@@ -76,11 +76,16 @@
 ***[Список разрешённых доменов](https://github.com/hxehex/russia-mobile-internet-whitelist/blob/main/whitelist.txt)***
 
 # **Ссылка** 
+> [!IMPORTANT]
+> Вставьте в клиент именно ссылку. Копирование содержимого ссылки вручную является неправильным.
+
+### Основная ссылка
 ```
 https://qupe.pw/sanek-gay:)
 ```
-
-> [!IMPORTANT]
-> Вставьте в клиент именно ссылку. Копирование содержимого ссылки вручную является неправильным.
+### Зеркало (работает при белых списках)
+```
+https://clck.ru/3UsSjt
+```
 
 [^1]: TCP и ICMP пинги, как правило, недостоверны для проверки прокси, потому что они лишь подтверждают, что сетевой интерфейс прокси активен и порт открыт для соединения. Только реальный HTTP GET/HEAD через прокси проверяет, что прокси корректно пересылает данные, возвращает ожидаемые статусы и работает как надо.
