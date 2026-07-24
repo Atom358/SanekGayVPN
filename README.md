@@ -54,11 +54,11 @@
 | 17 | VPSV | VPSVille |
 | 18 | PVDS | PINVDS |
 | 19 | VDSI | VDSina |
-| 20 | CDNV | CDNvideo |
-| 21 | NG | NGENIX |
-| 22 | FL | Filanco |
-| 23 | MJ | Majordomo |
-| 24 | ND | node |
+| 20 | CDNV | CDNvideo (Beeline) |
+| 21 | CMTS | #CloudMTS |
+| 22 | NG | NGENIX |
+| 23 | FL | Filanco |
+| 24 | MJ | Majordomo |
 | 25 | DSWA | DSWA |
 | 26 | HSHP | HSHP Hosting |
 | 27 | OT | Oyster Telecom |
